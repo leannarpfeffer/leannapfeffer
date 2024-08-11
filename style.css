@@ -80,14 +80,11 @@ p {
     line-height: 1.6;
 }
 
-/* Ensuring consistent width for all sections */
-#skills .content,
-#education .content,
-#projects .content,
-#about .content,
-#contact .content {
+/* Ensuring consistent width and alignment for all sections, including the skills section */
+section, .content {
     max-width: 800px;
     margin: 0 auto;
+    box-sizing: border-box; /* Ensures padding is included in width calculation */
 }
 
 /* Footer styling */
