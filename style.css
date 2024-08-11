@@ -80,6 +80,16 @@ p {
     line-height: 1.6;
 }
 
+/* Ensuring consistent width for all sections */
+#skills .content,
+#education .content,
+#projects .content,
+#about .content,
+#contact .content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 /* Footer styling */
 footer {
     text-align: center;
