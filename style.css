@@ -73,9 +73,9 @@ h2 {
 
 /* Skills section explicitly defined */
 #skills {
-    padding: 40px auto;
+    padding: 40px 20px;
     margin: 20px auto;
-    min-width: 800px;
+    max-width: 800px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
